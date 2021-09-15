@@ -1,0 +1,205 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  border: none;
+  background: no-repeat;
+}
+h1, h2,h3,h4,h5{
+  font-family: none;
+  font-size: none;
+}
+.welcome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.welcome__hits{
+font-family: Gotham Pro;
+font-size: 31px;
+font-style: normal;
+font-weight: 300;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+}
+.welcome__block-container{
+  display: flex;
+  flex-direction: row;
+}
+.welcome__block{
+height: 387px;
+width: 270px;
+left: 55px;
+top: 88px;
+border-radius: 5px;
+position: relative;
+height: 387px;
+left: 55px;
+right: 955px;
+top: 88px;
+background: #FFFFFF;
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+border-radius: 5px;
+}
+.welcome__pic{
+height: 150px;
+left: 20px;
+right: 20px;
+top: 20px;
+}
+.welcome__control{
+  position: static;
+width: 230px;
+height: 19px;
+left: 0px;
+top: 0px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 19px;
+color: #888888;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+.welcome__condition{
+  position: static;
+width: 230px;
+height: 18px;
+left: 0px;
+top: 0px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 18px;
+color: #444444;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+margin: 5px 0px;
+}
+.welcome__rating{
+  display: flex;
+}
+.welcome__star{
+  position: static;
+width: 16px;
+height: 16px;
+left: 0px;
+top: 0px;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 5px;
+}
+.welcome__score{
+  position: static;
+width: 165px;
+height: 15px;
+left: 21px;
+top: 0px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: center;
+color: #00ADEF;
+flex: none;
+order: 1;
+flex-grow: 1;
+margin: 0px 5px;
+}
+.welcome__price{
+  display: flex;
+}
+.welcome__price-current{
+  position: static;
+width: 130px;
+height: 23px;
+left: 0px;
+top: 0px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 19px;
+line-height: 23px;
+display: flex;
+align-items: flex-end;
+color: #444444;
+flex: none;
+order: 0;
+flex-grow: 0;
+margin: 0px 5px;
+}
+.welcome__price-past{
+  position: static;
+width: 103px;
+height: 23px;
+left: 135px;
+top: 0px;
+font-family: Gotham Pro;
+font-style: normal;
+font-weight: normal;
+font-size: 13px;
+line-height: 15px;
+display: flex;
+align-items: flex-end;
+text-decoration-line: line-through;
+color: #888888;
+flex: none;
+order: 1;
+flex-grow: 0;
+margin: 0px 5px;
+}
+.welcome__adding{
+  display: flex;
+}
+.welcome__button{
+  display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 14px 40px 16px;
+position: static;
+width: 152px;
+height: 48px;
+left: 0px;
+top: 0px;
+background: #00ADEF;
+border-radius: 5px;
+flex: none;
+order: 0;
+flex-grow: 1;
+margin: 0px 15px;
+cursor: pointer;
+}
+.welcome__like{
+  position: absolute;
+left: 7.69%;
+right: 7.69%;
+top: 11.54%;
+bottom: 13.08%;
+background: #444444;
+cursor: pointer;
+}
+.welcome__plus{
+  position: absolute;
+left: 12.5%;
+right: 12.5%;
+top: 14.74%;
+bottom: 18.75%;
+background: #444444;
+}

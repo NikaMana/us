@@ -1,0 +1,18 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  border: none;
+  background: no-repeat;
+}
+.welcome__hits{
+font-family: Gotham Pro;
+font-size: 31px;
+font-style: normal;
+font-weight: 300;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+}

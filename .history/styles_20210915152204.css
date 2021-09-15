@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  border: none;
+  background: no-repeat;
+}
+h1, h2,h3,h4,h5{
+  font-family: none;
+  font-size: none;
+}
+.welcome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
+
+.welcome__hits{
+font-family: Gotham Pro;
+font-size: 31px;
+font-style: normal;
+font-weight: 300;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+}
+.welcome__block-container{
+  display: flex;
+}
+.welcome__block{
+height: 387px;
+width: 270px;
+left: 55px;
+top: 88px;
+border-radius: 5px;
+position: relative;
+height: 387px;
+left: 55px;
+right: 955px;
+top: 88px;
+
+/* White */
+
+background: #FFFFFF;
+/* Grey 1 (for strokes) */
+
+border: 1px solid #EEEEEE;
+box-sizing: border-box;
+border-radius: 5px;
+}

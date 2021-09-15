@@ -1,0 +1,30 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+button{
+  border: none;
+  background: no-repeat;
+}
+h1, h2,h3,h4,h5{
+  font-family: none;
+  font-size: none;
+}
+.welcome{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  background-color: #E5E5E5;
+}
+
+.welcome__hits{
+font-family: Gotham Pro;
+font-size: 31px;
+font-style: normal;
+font-weight: 300;
+line-height: 37px;
+letter-spacing: 0em;
+text-align: left;
+}
